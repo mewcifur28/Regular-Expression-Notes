@@ -202,4 +202,15 @@ let regex = /[A-Za-z]{2,}/
 Syntax: `{min, max}`
 
 
+# Test Yourself
 
+#### Match Word or Phrase in a List  
+#### Solution  
+List-
+- baloney
+- darn
+- drat
+- fooey
+- gosh darnit
+- heck
+(?i)(\W|^)(baloney|darn|drat|fooey|gosh\sdarnit|heck)(\W|$)
